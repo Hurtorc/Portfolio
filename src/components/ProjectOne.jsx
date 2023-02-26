@@ -3,20 +3,14 @@ import { ArwesThemeProvider, StylesBaseline, Card, Button, Text,} from '@arwes/c
 import { AnimatorGeneralProvider,} from '@arwes/animation';
 
 const FONT_FAMILY_ROOT = '"Titillium Web", sans-serif';
-const IMAGE_URL = '/assets/images/wallpaper.jpg';
+const IMAGE_URL = './assets/images/background-small.jpg';
 
 const globalStyles = { body: { fontFamily: FONT_FAMILY_ROOT } };
 const animatorGeneral = { duration: { enter: 200, exit: 200, stagger: 30 } };
 
 
-function ProjectOne() {
-  const [activate, setActivate] = React.useState(true);
-
-  React.useEffect(() => {
-    const timeout = setTimeout(() => setActivate(!activate), 2000);
-    return () => clearTimeout(timeout);
-  }, [activate]);
-
+function ProjectCard() {
+  const [activate,] = React.useState(true);
   return (
     <ArwesThemeProvider>
       <StylesBaseline styles={globalStyles} />
@@ -49,4 +43,4 @@ function ProjectOne() {
   );
 };
 
-export default ProjectOne;
+export default ProjectCard;

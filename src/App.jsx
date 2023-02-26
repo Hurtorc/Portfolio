@@ -7,15 +7,17 @@ function App() {
   return (
   <div className="App">
     <header className="App-header">
-      <h1>Adam Latham's Portfolio</h1>
+      <h1 className="d-inline-flex text-center">Adam Latham's Portfolio</h1>
+      <NavBar className="navbar d-inline-flex"/>
     </header>
     <div className="container">
-      <NavBar />
+      
     </div>
-  <ProjectCard />
-  <ProjectCard />
-  <ProjectCard />
-  
+    <div className="container ">
+      <ProjectCard className="space-right"/>
+      <ProjectCard />
+      <ProjectCard />
+    </div>
   
   
   </div>

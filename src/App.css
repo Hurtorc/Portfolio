@@ -28,6 +28,14 @@ body > div {
   }
 }
 
+.space-right {
+  margin-right: 16px;
+}
+
+.space-below {
+  margin-bottom: 16px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100px;
@@ -35,5 +43,23 @@ body > div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 300%
+  font-size: calc(10px + 2vmin);
+  margin: auto;
+  padding: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0 16px;
+   margin: 5px;
+  padding: 5px;
+}
+
+.spacing {
+  fill: #61dafb;
+  font-size: 1.5em;
+  font-weight: bold;
 }
