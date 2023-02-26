@@ -9,7 +9,7 @@ const globalStyles = { body: { fontFamily: FONT_FAMILY_ROOT } };
 const animatorGeneral = { duration: { enter: 200, exit: 200, stagger: 30 } };
 
 
-function ProjectCard() {
+function ProjectTwo() {
   const [activate,] = React.useState(true);
   return (
     <ArwesThemeProvider>
@@ -43,4 +43,4 @@ function ProjectCard() {
   );
 };
 
-export default ProjectCard;
+export default ProjectTwo;

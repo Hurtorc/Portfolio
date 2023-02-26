@@ -10,10 +10,11 @@ function NavBar() {
             hover
             inverted
           >
-            <a href=''><Text>Home</Text></a>
-            <a href=''><Text>Projects</Text></a>
-            <a href=''><Text>About</Text></a>
-            <div style={{ width: 1000, height: 50 }} />
+            <a href='' className='flex absolute inset-y-0 left-0 text-3xl'>
+            <Text>Home</Text></a>
+            <a href=''className='flex absolute inset-y-0 right-0 text-3xl'>
+            <Text>About Me</Text></a>
+            <div style={{ width: 500, height: 50 }} />
           </FrameHexagon>
     </ArwesThemeProvider>
   );
