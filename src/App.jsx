@@ -1,5 +1,8 @@
+import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import ProjectCard from './components/ProjectCard';
+import ProjectOne from './components/ProjectOne';
+import ProjectTwo from './components/ProjectTwo';
 import './index.css'
 
 function App() {
@@ -11,9 +14,10 @@ function App() {
     </header>
     <div className="columns-2 flex flex-row gap-3 space-x">
       <ProjectCard className="space-right"/>
-      <ProjectCard />
-      <ProjectCard />
+      <ProjectOne />
+      <ProjectTwo />
     </div>
+    <Contact />
   </div>
   )
 }
