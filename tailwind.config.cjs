@@ -2,9 +2,7 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{html,js,jsx,tsx,ts}"],
   theme: {
-    container: {
-      padding: "2rem",
-    },
+    extend: {},
     plugins: [],
   },
 };
