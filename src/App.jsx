@@ -18,40 +18,40 @@ function App() {
         img='./assets/images/gameover.jpg'
         title="Game Price Checker"
         github="https://github.com/Hurtorc/Game_Price"
-        description=""
-         />
+        description="An application that allows users to search for video games and see the current price of the game on multiple platforms."
+        />
          <ProjectCard
         img=""
         title="Weather App"
         github="https://github.com/Hurtorc/Weather_App"
-        description=""
+        description="An application that allows users to search for a city and see the current weather conditions and a 5 day forecast."
          />
          <ProjectCard
         img=""
         title="ReadMe Generator"
         github="https://github.com/Hurtorc/READEME_Gen"
-        description=""
+        description="An application that allows users to create a ReadMe file for their project with a few simple questions."
          />
          <ProjectCard
         img=""
         title="Password Generator"
         github="https://github.com/Hurtorc/hw-3"
-        description=""
+        description="A simple application that allows users to generate a random password based on a few simple criteria."
          />
          <ProjectCard
         img=""
         title="Quiz Game"
         github=""
-        description=""
+        description="A simple quiz game that allows users to test their knowledge of the Star Wars universe."
          />
          <ProjectCard
         img=""
         title="Game Price Checker 2.0"
         github="https://github.com/Hurtorc/Game-Price-Checker-2.0"
-        description=""
+        description="A reimagining of my first project, Game Price Checker. This version uses a different API and allows users to search for games by title, platform, or genre."
          />
       </div>
-      <div class=" " id="about">
+      <div class="" id="about">
         <About />
       </div>
       

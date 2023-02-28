@@ -12,8 +12,7 @@ const AboutText = ({ palette }) => (
         <ul>
             <ul class="text-lg">
                 <a href='https://github.com/Hurtorc'>Github</a>
-                <p>Email:<mail></mail></p>
-                
+                <p>Email: <a href='mailto:anire88@gmail.com'>anire88@gmail.com</a></p>
             </ul>
         </ul>
     </Text>
