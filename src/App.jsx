@@ -2,7 +2,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import ProjectCard from './components/ProjectCard';
-import background from './assets/images/background-large.jpg'
+import background from '../public/images/background-large.jpg'
 import './index.css'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       </header>
       <div className=" " id='projects'>
         <ProjectCard
-        img='./assets/images/gameover.jpg'
+        img='../public/images/gameover.jpg'
         title="Game Price Checker"
         github="https://github.com/Hurtorc/Game_Price"
         description="An application that allows users to search for video games and see the current price of the game on multiple platforms."
