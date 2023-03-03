@@ -13,6 +13,7 @@ const AboutText = ({ palette }) => (
             <ul className="text-lg">
                 <a href='https://github.com/Hurtorc'>Github</a>
                 <p>Email: <a href='mailto:anire88@gmail.com'>anire88@gmail.com</a></p>
+                <p>Created using the <a href='https://arwes.dev/'>Arwes Framework</a> </p>
             </ul>
         </ul>
     </Text>
