@@ -11,9 +11,9 @@ function NavBar() {
             inverted
           
           >
-            <ul class="flex text-4xl justify-between">
+            <ul className="flex text-4xl justify-between">
               <li className="mr-6">
-                <a class="" href="#projects">Projects</a>
+                <a className="" href="#projects">Projects</a>
               </li>
               <li className="mr-6 space-x-5">
                 <a className="" href="#about">About Me</a>

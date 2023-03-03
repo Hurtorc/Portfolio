@@ -10,7 +10,7 @@ const AboutText = ({ palette }) => (
   <Blockquote palette={palette}>
     <Text>
         <ul>
-            <ul class="text-lg">
+            <ul className="text-lg">
                 <a href='https://github.com/Hurtorc'>Github</a>
                 <p>Email: <a href='mailto:anire88@gmail.com'>anire88@gmail.com</a></p>
             </ul>

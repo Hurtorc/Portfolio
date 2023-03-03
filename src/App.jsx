@@ -7,13 +7,17 @@ import './index.css'
 
 function App() {
   return (
-  <div class="App p-2" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-    <div class="p-5 m-5 center-align justify-content-xl-evenly">
-      <header class="center-align justify-content-evenly flex-col">
-        <h1 class="text-6xl justify-center-md text-center display-flex">Adam Latham's Portfolio</h1>
-        <NavBar />
+  <div className="App p-2" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+    <div className="">
+      <header className="">
+        <div className="justify-center-md content-center display-flex">
+          <h1 className="text-6xl justify-center-md text-center content-center display-flex">Adam Latham's Portfolio</h1>
+        </div>
+        <div className=" justify-center-md content-center display-flex">.
+          <NavBar />
+        </div>
       </header>
-      <div class="grid grid-cols-2 gap-4" id='projects'>
+      <div className=" " id='projects'>
         <ProjectCard
         img='./assets/images/gameover.jpg'
         title="Game Price Checker"
@@ -51,12 +55,12 @@ function App() {
         description="A reimagining of my first project, Game Price Checker. This version uses a different API and allows users to search for games by title, platform, or genre."
          />
       </div>
-      <div class="" id="about">
+      <div className=" p-10 gap-4" id="about">
         <About />
       </div>
       
       </div>
-      <footer className="" id="contact">
+      <footer className=" p-10 gap-6" id="contact">
         <Contact />
       </footer>
   </div>
