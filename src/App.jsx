@@ -9,8 +9,8 @@ function App() {
   return (
   <div className="App p-2" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
     <div className="">
-      <header className=" flex justify-center">
-        <div className="justify-center-md content-center display-flex">
+      <header className=" flex justify-center gap-4">
+        <div className="justify-center-md content-center flex">
           <h1 className="text-6xl justify-center-md text-center content-center display-flex">Adam Latham's Portfolio</h1>
         </div>
         <div className="flex justify-center-md content-center">
@@ -18,7 +18,7 @@ function App() {
         </div>
       </header>
       <div className="flex justify-center" id="projects">
-        <div className="justify-center " id='projects'>
+        <div className="justify-center gap-3 p-5" id='projects'>
             <ProjectCard
             img='../images/gameover.jpg'
             title="Game Price Checker"
