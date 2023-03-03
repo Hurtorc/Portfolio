@@ -46,7 +46,7 @@ function App() {
             <ProjectCard
             img="../images/quiz.jpg"
             title="Quiz Game"
-            github=""
+            github="https://github.com/Hurtorc/hw-4"
             description="A simple quiz game that allows users to test their knowledge of the Star Wars universe."
             />
             <ProjectCard
